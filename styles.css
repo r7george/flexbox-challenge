@@ -16,6 +16,7 @@ header {
 header > a {
   background-color: green;
   padding: 10.8px 50px;
+  font-weight: bold;
   color: white;
   text-decoration: none;
 }
@@ -37,16 +38,14 @@ nav > a {
 
 nav > a:hover {
   color: black;
-  background-color: white;
+  background-color: green;
 }
 
 /* Main section */
 
-main {
-  height: 700px;
+.main-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
 }
 
 ul {
