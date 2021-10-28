@@ -54,15 +54,19 @@ ul > li {
 }
 
 .left-side {
-  width: 60%;
+  flex-grow: 1;
 }
 
 .right-side {
-  width: 30%;
+  width: 27%;
 }
 
 article {
   border: 1px solid black;
   padding: 10px;
   margin: 10px;
+}
+
+.right-side > article {
+  margin: 10px 10px 10px 0px;
 }
