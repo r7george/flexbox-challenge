@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* Nav section */
+
 header {
   background-color: black;
   display: flex;
@@ -38,6 +40,8 @@ nav > a:hover {
   background-color: white;
 }
 
+/* Main section */
+
 main {
   height: 700px;
   display: flex;
@@ -59,14 +63,13 @@ ul > li {
 
 .right-side {
   width: 27%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 10px 10px 0px;
 }
 
 article {
   border: 1px solid black;
   padding: 10px;
   margin: 10px;
-}
-
-.right-side > article {
-  margin: 10px 10px 10px 0px;
 }
